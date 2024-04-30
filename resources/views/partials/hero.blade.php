@@ -5,12 +5,12 @@
                 loading="lazy">
         </div>
         <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Buy tickets anywhere at any time</h1>
-            <p class="lead">Buy tickets anywhere at any time, without having to queue, explore the various features we
-                provide and enjoy the various promos available.</p>
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Enjoy your time with code.</h1>
+            <p class="lead">Discover many interesting things about programming, there will be many fun things hidden
+                behind the difficulty of coding. Let's learn every day so we don't get left behind by new technology.
+            </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <a type="button" href="#" class="btn btn-primary btn-lg px-4 me-md-2">Sigin-Up</a>
-                <a type="button" href="#" class="btn btn-outline-secondary btn-lg px-4">Login</a>
+                <a type="button" href="#" class="btn btn-primary btn-lg px-4 me-md-2">Contact-Me</a>
             </div>
         </div>
     </div>
