@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\LandingPage;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [LandingPage::class, 'index']);
+
+Route::get('/page/hide/hiding/login', [AuthController::class, 'login'])->name('login')->middleware('guest');
+Route::post('/login', [AuthController::class, 'authenticate']);
+Route::post('/logout', [AuthController::class, 'logout']);
+
+Route::get('/dashboard', function () {
+    return view('dashboard.index');
+})->middleware('auth');
