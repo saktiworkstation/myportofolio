@@ -3,6 +3,7 @@
 use App\Http\Controllers\LandingPage;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ProjectController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,5 @@ Route::post('/logout', [AuthController::class, 'logout']);
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 })->middleware('auth');
+
+Route::resource('dashboard/projects', ProjectController::class)->middleware('auth');
