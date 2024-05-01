@@ -65,7 +65,17 @@ class ProjectController extends Controller
      */
     public function update(Request $request, Project $project)
     {
-        //
+        $rules = [
+            'title' => 'required|max:255',
+            'url' => 'required|url',
+            'description' => 'required'
+        ];
+
+        $validatedData = $request->validate($rules);
+
+        Project::where('id', $project->id)->update($validatedData);
+
+        return redirect('/dashboard/projects')->with('success', 'Project has been chnged!');
     }
 
     /**

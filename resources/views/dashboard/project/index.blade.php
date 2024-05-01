@@ -39,7 +39,7 @@
                                 <tr>
                                     <td>{{ $loop->iteration }}</td>
                                     <td>{{ $project->title }}</td>
-                                    <td>{!! $project->descriptions !!}</td>
+                                    <td>{!! $project->description !!}</td>
                                     <td>{{ $project->url }}</td>
                                     <td>
                                         <a href="/dashboard/projects/{{ $project->id }}/edit" class="badge bg-warning">
