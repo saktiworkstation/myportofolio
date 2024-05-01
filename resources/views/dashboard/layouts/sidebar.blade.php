@@ -10,14 +10,8 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link {{ Request::is('dashboard/projects') ? 'active' : '' }}" href="/dashboard/projects">
-                    <span data-feather="shopping-bag"></span>
+                    <span data-feather="server"></span>
                     project
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link {{ Request::is('dashboard/profiles') ? 'active' : '' }}" href="/dashboard/profiles">
-                    <span data-feather="bell"></span>
-                    Profile
                 </a>
             </li>
         </ul>
