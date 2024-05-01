@@ -6,7 +6,8 @@
         </div>
         <div class="col-lg-6">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Enjoy your time with code.</h1>
-            <p class="lead">Discover many interesting things about programming, there will be many fun things hidden
+            <p class="lead fs-5">Discover many interesting things about programming, there will be many fun things
+                hidden
                 behind the difficulty of coding. Let's learn every day so we don't get left behind by new technology.
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">

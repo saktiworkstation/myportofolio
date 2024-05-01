@@ -2,13 +2,13 @@
     <div class="container col-xxl-8 px-4 py-5 text-center">
         <h1>Hi. I'm Sakti.</h1>
         <div class="row flex-lg-row-reverse d-flex justify-content-between g-5 py-5">
-            <div class="col-lg-7 text-start">
+            <div class="col-lg-7 text-start fs-5">
                 Right
             </div>
             <div class="col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="img/pp.jpg" class="card-img-top" alt="Sakti Kusuma Aji">
-                    <div class="card-header bg-info-subtle">
+                    <div class="card-header bg-info-subtle fs-5">
                         Code At Night 🌃
                     </div>
                 </div>
