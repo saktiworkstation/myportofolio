@@ -9,7 +9,6 @@
             <li><a href="/" class="nav-link px-2 ">Home</a></li>
             <li><a href="#" class="nav-link px-2 link-secondary">About</a></li>
             <li><a href="#" class="nav-link px-2 link-secondary">Project</a></li>
-            <li><a href="/" class="nav-link px-2 link-secondary">School</a></li>
             <li><a href="#" class="nav-link px-2 link-secondary">Contact-Me</a></li>
         </ul>
         @auth
