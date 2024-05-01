@@ -10,9 +10,6 @@
                 hidden
                 behind the difficulty of coding. Let's learn every day so we don't get left behind by new technology.
             </p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <a type="button" href="#" class="btn btn-primary btn-lg px-4 me-md-2">Contact-Me</a>
-            </div>
         </div>
     </div>
 </div>
