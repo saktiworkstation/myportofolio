@@ -45,7 +45,7 @@
                                         <a href="/dashboard/projects/{{ $project->id }}/edit" class="badge bg-warning">
                                             <span data-feather="edit"></span>
                                         </a>
-                                        <form action="/dashboard/projects/{{ $project->id }}/delete" method="post"
+                                        <form action="/dashboard/projects/{{ $project->id }}" method="post"
                                             class="d-inline">
                                             @method('delete')
                                             @csrf
