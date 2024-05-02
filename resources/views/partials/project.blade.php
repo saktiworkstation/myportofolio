@@ -9,7 +9,8 @@
                     <div class="card-img-overlay">
                         <h5 class="card-title">{{ $project->title }}</h5>
                         <p class="card-text">{!! $project->description !!}</p>
-                        <p class="card-text"><small><a href="{{ $project->url }}" class="text-white">Link to this
+                        <p class="card-text"><small><a href="{{ $project->url }}" target="_blank"
+                                    class="text-white">Link to this
                                     Project
                                     -></a></small></p>
                     </div>
